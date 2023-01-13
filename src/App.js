@@ -30,7 +30,7 @@ function App() {
   }
   return (
     <div className="app-background">
-      <p className="heading-text">React To Do List 🔥🔥</p>
+      <p className="heading-text">To Do List 🔥🔥</p>
       <div className='task-container column'>
         <div className='row'>
           <input className='text-input'value={taskInput} onKeyDown={inputKeyDown} onChange={(event)=>updateTaskInput(event.target.value)}/>
